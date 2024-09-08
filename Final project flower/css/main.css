@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: url('https://cdn.shopify.com/s/files/1/1034/3311/files/hand-bouquets-collection-banner.jpg?v=1674899330') no-repeat center center/cover;
+    height: 300px;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.overlay h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.overlay nav {
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contact-form, .contact-info {
+    width: 48%;
+}
+
+.contact-form h2, .contact-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group input, .form-group textarea {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info .info {
+    margin-bottom: 20px;
+}
+
+.info strong {
+    display: block;
+    margin-bottom: 5px;
+}

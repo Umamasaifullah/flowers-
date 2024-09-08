@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.card{
+    margin: 10px !important;
+    border: 2px solid balck;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card:hover{
+    box-shadow: rgb(88, 1, 6) 0px 7px 29px 0px;
+}
+#image img{
+    width: 100%;
+    transition: 5s;
+    
+}
+#image img:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+#image:hover{
+    overflow: hidden;
+}
+.container1 {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.text-content {
+    padding: 50px;
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 1.2em;
+    color: gray;
+    letter-spacing: 2px;
+}
+
+.text-content h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.text-content p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5em;
+}
+
+.text-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.text-content button:hover {
+    background-color: #333;
+}
+
+#flower{
+    margin-left: 20% !important;
+}
+#flo{
+    margin-left: 15% !important;
+}
+
+
+/* .image-content {
+    max-width: 50%;
+}
+
+.image-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
